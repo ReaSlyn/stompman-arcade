@@ -48,7 +48,7 @@ export default function Model({ arcade }) {
 				position={[0.2, 38.3, -2]}
 				rotation-x={-0.8}
 			>
-				<iframe src="https://reaslyn.github.io/pacman/" />
+				<iframe src="https://reaslyn.github.io/stompman/" />
 			</Html>
 		</animated.primitive>
 	);

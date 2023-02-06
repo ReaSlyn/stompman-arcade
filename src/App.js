@@ -10,8 +10,8 @@ function App() {
 	const [finished, setFinished] = useState(false);
 	const [loaded, setLoaded] = useState(false);
 
-	const arcade = useLoader(GLTFLoader, './models/pacman_arcade__animation.glb');
-	useGLTF.preload('./models/pacman_arcade__animation.glb');
+	const arcade = useLoader(GLTFLoader, './models/pacman_arcade.glb');
+	useGLTF.preload('./models/pacman_arcade.glb');
 
 	return (
 		<>
